@@ -7,8 +7,14 @@
 	<style type="text/css">
 		@font-face {
 			font-family: digit;
-			src: url('digital.ttf') format("truetype");
+			src: url('digital.ttf') format("truetype");	
 		}
+		.note {
+            display: block;
+            margin-left: 120px; /* Adjust the margin to your preference */
+            font-size: 24px; /* Adjust the font size to your preference */
+            color: black; /* Set the text color to black */
+        }
 	</style>
 	<link href="css/default.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.js"></script>
@@ -106,7 +112,7 @@
 	var offsetY = $("#loveHeart").height() / 2 - 55;
 	var together = new Date();
 	// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
-	together.setFullYear(2022, 11, 11);
+	together.setFullYear(2021, 11, 11);
 	together.setHours(15);
 	together.setMinutes(0);
 	together.setSeconds(0);
